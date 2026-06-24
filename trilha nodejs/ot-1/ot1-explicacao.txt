@@ -1,0 +1,25 @@
+O que é Node.js?
+
+Node.js é um ambiente de execução JavaScript no lado do servidor (back-end). Antes dele, 
+o JavaScript só rodava no navegador. Com o Node.js, você escreve JavaScript e ele roda 
+direto no computador/servidor, sem precisar de nenhum browser.
+Pensa assim: o navegador é como uma "sala de aula" onde o JS sempre estudou. 
+O Node.js abriu a porta para ele trabalhar também "na fábrica" (servidor).
+-----------------------------------------------------------------------------------
+Características principais
+
+Característica        O que significa na prática
+Single Thread         Usa apenas uma "fila" de execução
+Assíncrono            Não trava esperando uma tarefa terminar
+Non-blocking          Processa várias requisições sem parar
+Open Source           Gratuito e código aberto
+
+-----------------------------------------------------------------------------------
+
+Ferramenta/ConceitoComo funciona:
+console.log()          Imprime mensagens no terminal (igual ao do navegador)
+module.exports         "Empacota" uma função para ser usada em outro arquivo
+require('./arquivo')   "Desempacota" e importa a função exportada
+Template strings       Permite misturar texto e variáveis: `Resultado: ${variavel}`
+node arquivo.js        Comando no terminal para executar um arquivo Node.js
+npm -v / node -v       Verifica versões instaladas
